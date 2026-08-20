@@ -1,13 +1,13 @@
 {% set name = "zipstream-ng" %}
-{% set version = "1.9.2" %}
+{% set version = "1.9.3" %}
 
 package:
   name: zipstream-ng
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/z/zipstream_ng/zipstream_ng-{{ version }}.tar.gz
-  sha256: 116b7304b00f3251328cb300fa90f0f09d523b7faf2a06b3eaf7277dcb82cc3e
+  url: https://files.pythonhosted.org/packages/source/z/zipstream_ng/zipstream_ng-{{ version }}.tar.gz
+  sha256: 6cebd055025699c0af594c76a9452cdf13f4be67ee005b6907f0d3c9c6f44ced
 
 build:
   entry_points:
